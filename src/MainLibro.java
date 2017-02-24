@@ -48,6 +48,9 @@ public class MainLibro {
 		reader.parse(new InputSource(new FileInputStream("libro.xml")));
 
 		mostrar();
+		
+		System.out.println(getNLibros());
+		
 		}
 	
 
